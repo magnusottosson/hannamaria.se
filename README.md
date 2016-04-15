@@ -1,7 +1,9 @@
 # hannamaria.se
 
 # Start development server
+```
 bundle exec middleman server
+```
 
 # Deploy Instructions
 To deploy the site to github pages perform the following commands
