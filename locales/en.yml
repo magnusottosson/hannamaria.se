@@ -1,0 +1,16 @@
+en:
+  title: "HannaMaria - A classic yacht"
+  intro: "Hanna Maria is a 43' long yacht, designed with classic features above water line and with fast modern lines below. After a one year design work, she was built during a six years period in Göteborg Sweden and launched the first time 1995 and have been sailing in Scandinavian waters since then."
+  sections:
+    - title: "Hello World"
+      paragraphs:
+      - text: "Building a boat, based on my own design, had been a dream for many years and when I started the design, I did not really believe that I would complete this project. I had for many years, together with my wife and our two children, been sailing an International One Design, designed by the famous Norwegian designer Bjarne Aas. I am, by profession, a naval architect and have since 1976 been working at a model test basin, located in Gothenburg. My professional specialities are design of mathematical models for simulation of ship motions. This work, together with my interest for sailing, led me into the design of a so called VPP (Velocity Prediction Program) that is used for predicting the speed of an arbitrary sailing yacht in different wind conditions. With this program as a basis I started the design of my future 43Ҡsailing yacht. At that time, around 1987-1988, numerical design programs were not commonly used, why my design was made in the traditional way, by use of ducks and splines and on a drawing film."
+      - list:
+        - text: "It should be a long slender yacht with (in my eyes) beautiful lines and long traditional over hangs."
+        - text: "It should have good sailing properties."
+        - text: "It should be able to comfortably accommodate a crew of four."
+      - text: "The first criteria above is of course very subjective, but nevertheless of great importance. In contrary to most modern Swedish yachts it should have a positive spring, and be supplied with a short distinctive cabin house, with fore end well aft of the mast. A high fractional rig is both good looking and practical, especially when choosing a self-tailing jib."
+      - image: 
+          src: "images/polar_diagram.png"
+          alt: "Polar Diagram"
+      - text: "Since I always had been sailing wooden boats before, the choice of hull material was easy. It should in some way be based on wood. On the other hand I was not an experienced boat builder. In fact I had never before built a boat of my own, although I had worked quite a lot with my IOD, and successively gained a certain skill. After many discussions with friends and with my brother (who, during the same period, built a 10% larger boat, based on the same lines), I eventually choose a method based on wooden strip planking covered with GRP. My brother had some years before successfully restored an old wooden yacht by covering it with GRP."

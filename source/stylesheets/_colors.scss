@@ -1,0 +1,10 @@
+$color-text: #333;
+$color-link: #333;
+
+html, body {
+	color: $color-text;
+}
+
+a, a:active, a:hover, a:visited {
+	color: $color-link;
+}

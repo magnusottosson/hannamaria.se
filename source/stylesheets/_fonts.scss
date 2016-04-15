@@ -1,0 +1,77 @@
+
+$rhythm-unit: 'rem';
+$base-font-size: 16px;
+$base-line-height: 16px;
+
+$font-config: ( 
+	"default": (
+		"sizes": (
+			null: (16px, 1.5), 
+			$breakpoint-phablet: (18px, 1.5), 
+			$breakpoint-small: (24px, 2), 
+			$breakpoint-medium: (24px, 2), 
+			$breakpoint-large: (24px, 2),
+			$breakpoint-full: (24px, 2)
+		)
+	),
+	"h1": ( 
+		"sizes": (
+			null: 18px, 
+			$breakpoint-phablet: 24px, 
+			$breakpoint-small: 32px, 
+			$breakpoint-medium: 32px, 
+			$breakpoint-large: 32px, 
+			$breakpoint-full: 32px
+		)
+	),
+	"h2": ( 
+		"sizes": (
+			null: 25px, 
+			$breakpoint-phablet: 30px, 
+			$breakpoint-small: 40px, 
+			$breakpoint-medium: 50px, 
+			$breakpoint-large: 45px, 
+			$breakpoint-full: 60px
+		)
+	),
+	"h3": ( 
+		"sizes": (
+			null: 24px, 
+			$breakpoint-phablet: 24px, 
+			$breakpoint-small: 32px, 
+			$breakpoint-medium: 32px, 
+			$breakpoint-large: 32px, 
+			$breakpoint-full: 32px
+		)
+	)
+);
+
+html, body {
+
+}
+
+p {
+	@include font-config("default");
+}
+
+a, a:active, a:hover, a:visited {
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5 {
+
+}
+
+h1 {
+	@include font-config("h1");
+}
+
+h2 {
+	@include font-config("h2");
+}
+
+h3 {
+	@include font-config("h3");
+}

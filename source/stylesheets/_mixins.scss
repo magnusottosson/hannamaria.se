@@ -1,0 +1,139 @@
+@mixin at-mobile {
+	@include susy-breakpoint(max-width $breakpoint-medium) {
+		@content;
+	}
+}
+
+@mixin at-phablet {
+	@include susy-breakpoint($breakpoint-phablet) {
+		@content;
+	}
+}
+
+@mixin at-small {
+	@include susy-breakpoint($breakpoint-small) {
+		@content;
+	}
+}
+
+@mixin at-medium {
+	@include susy-breakpoint($breakpoint-medium) {
+		@content;
+	}
+}
+
+@mixin at-large {
+	@include susy-breakpoint($breakpoint-large) {
+		@content;
+	}
+}
+
+@mixin at-full {
+	@include susy-breakpoint($breakpoint-full) {
+		@content;
+	}
+}
+
+@mixin font-size-for-size($size) {
+
+	@if type-of($size) == "list" {
+
+		@if (length($size) > 1) {
+			@include adjust-font-size-to(nth($size, 1), nth($size, 2));
+		}
+		@else {
+			@include adjust-font-size-to(nth($size, 1), nth($size, 1)/$base-font-size);
+		}
+	}
+	@else {
+		@include adjust-font-size-to($size, $size/$base-font-size);
+	}
+}
+
+@mixin font-config($key) {
+
+	$config: map-get($font-config, $key);
+	$sizes: map-get($config, "sizes");
+
+	@each $breakpoint, $size in $sizes {
+
+		@if $breakpoint == null {
+	      @include font-size-for-size($size);
+	    }
+	    @else {
+	    	@include susy-breakpoint($breakpoint) {
+				@include font-size-for-size($size);
+			}
+	    }
+	}
+}
+
+@mixin case($border-color) {
+
+	border: solid $border-color;
+	border-width: 0 0 0 3px;
+
+	@include at-large {
+
+		border: none;
+
+		figcaption {
+			h2 {
+				border: solid $border-color;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+
+@mixin case-text-at-left($img-cols, $text-cols, $border-color) {
+
+	@include case($border-color);
+
+	@include at-large {
+
+		figcaption {
+
+			@include span($text-cols first);
+
+			h2 {
+				text-align: right;
+				margin-right: $case-headline-margin-border-side;
+				padding-right: $case-headline-margin-border-side;
+				padding-left: $case-headline-padding-non-border-side;
+				border-width: 0 $case-headline-border-width 0 0;
+			}
+		}
+
+		figure {
+			@include span($img-cols last);
+			text-align: left;
+		}
+	}
+}
+
+@mixin case-text-at-right($img-cols, $text-cols, $border-color) {
+
+	@include case($border-color);
+
+	@include at-large {
+
+		figcaption {
+
+			@include span($text-cols last);
+
+			h2 {
+				text-align: left;
+				margin-left: $case-headline-margin-border-side;
+				padding-left: $case-headline-margin-border-side;
+				padding-right: $case-headline-padding-border-side;
+				border-width: 0 0 0 $case-headline-border-width;
+			}
+		}
+
+		figure {
+			@include span($img-cols first);
+			text-align: right;
+		}
+	}
+}

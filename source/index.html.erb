@@ -1,0 +1,41 @@
+<header>
+	<h1><%= I18n.t(:title) %></h1>
+	<p><%= I18n.t(:intro) %></p>
+</header>
+
+<article>
+	<% I18n.t(:sections).each do |section| %>
+
+		<section>
+			<h2><%= section[:title] %></h2>
+
+			<% section[:paragraphs].each do |paragraph| %>
+
+				<p>
+					<% if paragraph[:text] %>
+						<%= paragraph[:text] %>
+					<% end %>
+
+					<% if paragraph[:list] %>
+						<ul>
+							<% paragraph[:list].each do |item| %>
+								<li><%= item[:text] %></li>
+							<% end %>
+						</ul>
+					<% end %>
+
+					<% if paragraph[:image] %>
+						<img src="<%= paragraph[:image][:src] %>" alt="<%= paragraph[:image][:alt] %>">
+					<% end %>
+				</p>
+
+			<% end %>
+
+		</section>
+
+	<% end %>
+</article>
+
+<footer>
+
+</footer>
