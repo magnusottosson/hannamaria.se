@@ -1,6 +1,7 @@
 <header>
 	<h1><%= I18n.t(:title) %></h1>
-	<p><%= I18n.t(:intro) %></p>
+	<h3><span><%= I18n.t(:subtitle) %></span></h3>
+	<p class="preamble"><%= I18n.t(:intro) %></p>
 </header>
 
 <article>
@@ -11,23 +12,21 @@
 
 			<% section[:paragraphs].each do |paragraph| %>
 
-				<p>
-					<% if paragraph[:text] %>
-						<%= paragraph[:text] %>
-					<% end %>
+				<% if paragraph[:text] %>
+					<p><%= paragraph[:text] %></p>
+				<% end %>
 
-					<% if paragraph[:list] %>
-						<ul>
-							<% paragraph[:list].each do |item| %>
-								<li><%= item[:text] %></li>
-							<% end %>
-						</ul>
-					<% end %>
+				<% if paragraph[:list] %>
+					<ul>
+						<% paragraph[:list][:items].each do |item| %>
+							<li><%= item[:text] %></li>
+						<% end %>
+					</ul>
+				<% end %>
 
-					<% if paragraph[:image] %>
-						<img src="<%= paragraph[:image][:src] %>" alt="<%= paragraph[:image][:alt] %>">
-					<% end %>
-				</p>
+				<% if paragraph[:image] %>
+					<img src="<%= paragraph[:image][:src] %>" alt="<%= paragraph[:image][:alt] %>">
+				<% end %>
 
 			<% end %>
 

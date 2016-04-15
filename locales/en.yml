@@ -1,16 +1,104 @@
 en:
-  title: "HannaMaria - A classic yacht"
-  intro: "Hanna Maria is a 43' long yacht, designed with classic features above water line and with fast modern lines below. After a one year design work, she was built during a six years period in Göteborg Sweden and launched the first time 1995 and have been sailing in Scandinavian waters since then."
-  sections:
-    - title: "Hello World"
-      paragraphs:
-      - text: "Building a boat, based on my own design, had been a dream for many years and when I started the design, I did not really believe that I would complete this project. I had for many years, together with my wife and our two children, been sailing an International One Design, designed by the famous Norwegian designer Bjarne Aas. I am, by profession, a naval architect and have since 1976 been working at a model test basin, located in Gothenburg. My professional specialities are design of mathematical models for simulation of ship motions. This work, together with my interest for sailing, led me into the design of a so called VPP (Velocity Prediction Program) that is used for predicting the speed of an arbitrary sailing yacht in different wind conditions. With this program as a basis I started the design of my future 43Ҡsailing yacht. At that time, around 1987-1988, numerical design programs were not commonly used, why my design was made in the traditional way, by use of ducks and splines and on a drawing film."
-      - list:
-        - text: "It should be a long slender yacht with (in my eyes) beautiful lines and long traditional over hangs."
-        - text: "It should have good sailing properties."
-        - text: "It should be able to comfortably accommodate a crew of four."
-      - text: "The first criteria above is of course very subjective, but nevertheless of great importance. In contrary to most modern Swedish yachts it should have a positive spring, and be supplied with a short distinctive cabin house, with fore end well aft of the mast. A high fractional rig is both good looking and practical, especially when choosing a self-tailing jib."
-      - image: 
-          src: "images/polar_diagram.png"
-          alt: "Polar Diagram"
-      - text: "Since I always had been sailing wooden boats before, the choice of hull material was easy. It should in some way be based on wood. On the other hand I was not an experienced boat builder. In fact I had never before built a boat of my own, although I had worked quite a lot with my IOD, and successively gained a certain skill. After many discussions with friends and with my brother (who, during the same period, built a 10% larger boat, based on the same lines), I eventually choose a method based on wooden strip planking covered with GRP. My brother had some years before successfully restored an old wooden yacht by covering it with GRP."
+    title: "HannaMaria"
+    subtitle: "A classic yacht"
+    intro: "Hanna Maria is a 43' long yacht, designed with classic features above water line and with fast modern lines below. After a one year design work, she was built during a six years period in Göteborg Sweden and launched the first time 1995 and have been sailing in Scandinavian waters since then."
+    sections:
+        - title: "Design"
+          paragraphs:
+            - text: "Building a boat, based on my own design, had been a dream for many years and when I started the design, I did not really believe that I would complete this project. I had for many years, together with my wife and our two children, been sailing an International One Design, designed by the famous Norwegian designer Bjarne Aas. I am, by profession, a naval architect and have since 1976 been working at a model test basin, located in Gothenburg. My professional specialities are design of mathematical models for simulation of ship motions. This work, together with my interest for sailing, led me into the design of a so called VPP (Velocity Prediction Program) that is used for predicting the speed of an arbitrary sailing yacht in different wind conditions. With this program as a basis I started the design of my future 43Ҡsailing yacht. At that time, around 1987-1988, numerical design programs were not commonly used, why my design was made in the traditional way, by use of ducks and splines and on a drawing film."
+            - text: "Since I always had been sailing wooden boats before, the choice of hull material was easy. It should in some way be based on wood. On the other hand I was not an experienced boat builder. In fact I had never before built a boat of my own, although I had worked quite a lot with my IOD, and successively gained a certain skill. After many discussions with friends and with my brother (who, during the same period, built a 10% larger boat, based on the same lines), I eventually choose a method based on wooden strip planking covered with GRP. My brother had some years before successfully restored an old wooden yacht by covering it with GRP."
+            - list:
+                text: "When starting the design I put up some criteria that were essential for me:"
+                items:
+                    - text: "It should be a long slender yacht with (in my eyes) beautiful lines and long traditional over hangs."
+                    - text: "It should have good sailing properties."
+                    - text: "It should be able to comfortably accommodate a crew of four."
+
+            - text: "The first criteria above is of course very subjective, but nevertheless of great importance. In contrary to most modern Swedish yachts it should have a positive spring, and be supplied with a short distinctive cabin house, with fore end well aft of the mast. A high fractional rig is both good looking and practical, especially when choosing a self-tailing jib."
+            - list:
+                items:
+                    - text: "Length over all 13.2 m"
+                    - text: "Length in water line 9.3 m"
+                    - text: "Beam    3.14 m"
+                    - text: "Draught of hull 0.88 m"
+                    - text: "Total draught   2.27 m"
+                    - text: "Displacement    9.0 tons"
+                    - text: "Mainsail area   52 sqm"
+                    - text: "Jib sail area   34 sqm"
+            - text: "Good sailing properties were verified by the VPP, that I previously had developed. Based on the VPP calculations a so-called polar diagram can be developed which well describes the speed characteristics in different weather conditions and in a relatively understandable way."
+            - image:
+                src: "/images/polar_diagram.png"
+                alt: "Polare Diagram"
+                desc: "Polar diagram effectively shows the performance characteristics of a sailing yacht, for all wind speeds and directions. The diagram shows, for example that at 7 m/s the optimum upwind speed is 6.6 knots providing a VMG (Velocity Made Good or speed component against the wind) of slightly more than 5 knots."
+            - text: "Since the sailing performance was important, I decided to design her with a deep fin keel and a separate rudder."
+            - image:
+                src: "/images/body_plane.png"
+                alt: "Body Plane"
+            - image:
+                src: "/images/profile.png"
+                alt: "Profile"
+        - title: "Construction"
+          paragraphs:
+                - text: "The actual building of the boat started in the autumn of 1989. I raised a canvas tent in a small boat yard in Gothenburg. All the frames and the floors I had previously manufactured in my own small workshop at home. Both of them in laminated oak and each frame connected to its own floor. Around the keel, there is one floor on each side of respective frame, in order to ensure that the keel forces are appropriately absorbed. Thus the first task was to raise all the frames, totally 16, still applied on the moulds. The hull was built upside down in order to make it easier. All the oak tree, which I used for frames and floors, I had bought from a farmer some 200 km north of Gothenburg, about two years in advance, thus providing time for the tree to dry up properly."
+                - text: "The keelson was laminated directly on the floors, using 200×10 mm oak layers, totally twelve on top of each other. Each layer was fastened to the one below, by use of both glue (aerolite) and stainless wooden screws. This work with successively laying the keelson was completed in spring 1990. It was then time to start the laying of the planking."
+                - image:
+                    src: "/images/side_view_drawing.png"
+                    alt: "Side View Drawing"
+                - text: "I considered strip planking to be a method that could effectively be used for an amateur as I considered myself being. Combined with an outer skin of GRP it provides a hull, which I believed to be sufficiently strong. The strips were cut with one male and one female side, making it easy to mount the strips together along the hull surface. Each strip was fastened to the next one by screws at spacing of approximately 200 mm and by use of polyurethane glue. In addition each strip fastened to the frames by use of 50 mm screws."
+                - image:
+                    src: "/images/planking.png"
+                    alt: "Planking"
+                    desc: "Strip planking together with an outer skin of GRP provides a strong hull"
+                - text: "The deck was built in three layers, bottom layer was 15 mm pine on top of 50 x 50 mm deck beams with a spacing of 400 mm. Between the teak on top and the pine I choose to lay a 3 mm GRP layer for water protection. The teak ribs were sealed with thiodikt. All deck houses and skylights were built in mahogany."
+                - text: "The four cylinder 44 hp Yanmar diesel engine was installed and connected to the axis that previously had been applied. All tanks, diesel, fresh water and septi, were made of 1.5 mm stainless steep plate."
+                - image:
+                    src: "/images/interior.png"
+                    alt: "Interior"
+        - title: "Interior of Hanna Maria"
+          paragraphs:
+                - text: "Before launching the boat in spring 1995, the keel, that had been moulded some months before, was covered with GRP and raised to upright position, ready for the hull being lifted on top of it. It was fastened by 13 stainless steel keel bolts, each with a diameter of 24 mm."
+                - text: "Hanna-Maria was launched in spring 1995 after approximately 5 000 hours work."
+                - pictures:
+                    - src: "/images/interior1.png"
+                      alt: "Pentry and Saloon"
+                    - src: "/images/interior2.png"
+                      alt: "Skylight in the Saloon"
+                    - src: "/images/interior3.png"
+                      alt: "Table and Dinette in the Saloon"
+                    - src: "/images/interior4.png"
+                      alt: "Pilot berth and armchair on stbd side. Fore of the bench is the cabin heater."
+                - text: "It took me about five to six years to learn the boat properly and to adjust all the drawbacks that I initially experienced. When having launched the boat in the summer of 1995, I found that the weight calculations had been successful. This was a one of the most difficult parts in the design. As a matter of fact it was trimming exactly on the water line as I had expected. Later, however, I discovered that the stability was less than that being predicted. One important reason for this was that the mast weighed much more than initially estimated. In my calculations, I had estimated its weight to approximately 200 kg, i. e. without any stays and fittings. It turned out to be 275 kg. For five summers we sailed with this heavy mast. Every spring and every autumn, when rigging and de-rigging, it caused a lot of effort and nervousness. Eventually I decided to make a new one. The first, original one, was made in Oregon pine, and was quite robust with thick walls. Although I had made careful calculations I had over-dimensioned it. The new one was built with much attention to the weight. Instead of Oregon Pine I this time choose American Sproos, which is about 20 % lighter, but still with about the same strength. I also made it much thinner in the walls, still, however, with almost the same outer dimensions. The outer surface of the mast was covered with transparent glass fibre reinforced epoxy. After having changed the mast I ended up with a boat that had a 25 per cent higher stability."
+                - image:
+                    src: "/images/mast.png"
+                    alt: "Section of the new mast with components of both American and Swedish spruce"
+                    desc: "Section of the new mast with components of both American and Swedish spruce"
+                - text: "When I launched the boat the first time, it was supplied with a feathering three-bladed propeller, which worked well, still with a very low resistance, when sailing. However, after two weeks sailing the first summer, I lost the propeller. Evidently I hadnӴ mounted it properly. I had bought this propeller second hand for a fairly low price. A new one would have meant about 1500 pounds at that time, which was more than my strained economy could cope with. Thus I bought a more cheap, fixed propeller, again a three-bladed one. This worked well, when using the engine. However, when sailing it was disastrous. The resistance it caused was incredible, especially at light winds. I had to sail with this ԢrakeԠfor about four-five years. In 2000 I got the opportunity to test a new three bladed folding propeller, developed by Volvo Penta. The blades, on this propeller design, are highly skewed, with a lot of weight close to the propeller tips, making it unfolding properly even when going astern. The resistance when sailing is equally low as for a feathering one. Changing the propeller made the boat go a half to one knot faster. My self-consciousness as a yacht designer was substantially increased after this."
+                - text: "Due to its very v-shaped bow the boat is comfortable in head waves, although this means that in a following seaway, the boat is very vivid and the rudder has to be used. As a matter of fact, on order to compensate for this, I lengthened the rudder and put on a skeg between the keel and the rudder after a couple of years."
+                - text: "In upwind she is very steady and the weather helm is just as is it should be, with 3-6 degrees rudder angle in normal wind conditions. She is still somewhat tender and has to be reefed at about 15 knots wind (when sailing upwind). A typical upwind speed is, say, 6.4-6.5 knots, and the maximum speed in open winds approximately 8.0-8.2 knots."
+        - title: "Photos"
+          paragraphs:
+                - pictures:
+                    - src: "/images/Segling2004019.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004020.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004021.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004023.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004024.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004027.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004040.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004042.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004047.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004048.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004051.jpg"
+                      alt: ""
+                    - src: "/images/Segling2004052.jpg"
+                      alt: ""

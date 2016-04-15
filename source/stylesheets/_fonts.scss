@@ -7,47 +7,39 @@ $font-config: (
 	"default": (
 		"sizes": (
 			null: (16px, 1.5), 
-			$breakpoint-phablet: (18px, 1.5), 
 			$breakpoint-small: (24px, 2), 
 			$breakpoint-medium: (24px, 2), 
-			$breakpoint-large: (24px, 2),
-			$breakpoint-full: (24px, 2)
+			$breakpoint-large: (24px, 2)
 		)
 	),
 	"h1": ( 
 		"sizes": (
-			null: 18px, 
-			$breakpoint-phablet: 24px, 
-			$breakpoint-small: 32px, 
-			$breakpoint-medium: 32px, 
-			$breakpoint-large: 32px, 
-			$breakpoint-full: 32px
+			null: 25px, 
+			$breakpoint-small: 80px, 
+			$breakpoint-medium: 80px, 
+			$breakpoint-large: 80px
 		)
 	),
 	"h2": ( 
 		"sizes": (
-			null: 25px, 
-			$breakpoint-phablet: 30px, 
-			$breakpoint-small: 40px, 
-			$breakpoint-medium: 50px, 
-			$breakpoint-large: 45px, 
-			$breakpoint-full: 60px
+			null: 18px, 
+			$breakpoint-small: 32px, 
+			$breakpoint-medium: 32px, 
+			$breakpoint-large: 32px
 		)
 	),
 	"h3": ( 
 		"sizes": (
 			null: 24px, 
-			$breakpoint-phablet: 24px, 
 			$breakpoint-small: 32px, 
 			$breakpoint-medium: 32px, 
-			$breakpoint-large: 32px, 
-			$breakpoint-full: 32px
+			$breakpoint-large: 32px
 		)
 	)
 );
 
 html, body {
-
+	font-family: 'Quattrocento', serif;
 }
 
 p {
@@ -61,7 +53,7 @@ a, a:active, a:hover, a:visited {
 }
 
 h1, h2, h3, h4, h5 {
-
+	font-family: 'Oswald', sans-serif;
 }
 
 h1 {

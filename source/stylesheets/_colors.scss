@@ -1,7 +1,9 @@
+$color-background: #fff;
 $color-text: #333;
 $color-link: #333;
 
 html, body {
+	backghround: $color-background;
 	color: $color-text;
 }
 

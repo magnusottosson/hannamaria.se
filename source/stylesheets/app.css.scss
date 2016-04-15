@@ -36,3 +36,49 @@ article {
 footer {
 	@include container;
 }
+
+h1, h2, h3 {
+	text-align: center;
+}
+
+h1 {
+	margin-top: 50px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h3 {
+	text-align: center;
+	border-top: 2px solid $color-text;
+	line-height: 20px;
+	margin-top: 40px;
+
+	span {
+		top: -10px;
+		position: relative;
+		padding: 0 20px;
+		background: $color-background;
+	}
+}
+
+p {
+	margin-top: 20px;
+	
+
+	&:not(.preamble) {
+		border-top: 2px solid $color-text;
+		padding-top: 20px;
+		
+		@include at-medium {
+			@include column-count(2);
+			@include column-gap(20px);
+			text-align: justify;
+		}
+	}
+
+	&.preamble {
+		font-style: italic;
+		border: none;
+		padding: 0;
+	}
+}

@@ -1,13 +1,6 @@
 $susy-mid: (columns: 12);
 $susy-max: (columns: 12);
-$breakpoint-phablet: 380px;
-$breakpoint-small: 600px;
-$breakpoint-medium: 750px;
-$breakpoint-large: 1000px;
-$breakpoint-full:1200px;
-$susy: (columns: 12, gutters: 0, container: $breakpoint-full, global-box-sizing: border-box);
-
-$case-headline-border-width: 3px;
-$case-headline-padding-border-side: 20px;
-$case-headline-padding-non-border-side: 10px;
-$case-headline-margin-border-side: 20px;
+$breakpoint-small: 400px;
+$breakpoint-medium: 600px;
+$breakpoint-large: 800px;
+$susy: (columns: 12, gutters: 0, container: $breakpoint-large, global-box-sizing: border-box);
